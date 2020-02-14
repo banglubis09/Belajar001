@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Belajar01</string>
+    <string name="atas">> Wajah & KTP harus</string>
+    <string name="bawah">> Wajah & KTP harus tampakm jelas</string>
+
+</resources>
