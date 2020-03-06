@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">Belajar01</string>
-    <string name="atas">> Wajah & KTP harus</string>
-    <string name="bawah">> Wajah & KTP harus tampakm jelas</string>
+    <string name="atas">> Wajah dan KTP harus</string>
+    <string name="bawah">> Wajah dan KTP harus tampakm jelas</string>
+
+
+    <string-array name="makanan">
+        <item>Dendeng</item>
+        <item>Rendang</item>
+        <item>Opor</item>
+        <item>Sayur Asem</item>
+    </string-array>
 
 </resources>

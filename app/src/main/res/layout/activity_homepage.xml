@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homepage"
+    android:orientation="vertical"
+    android:paddingStart="20sp"
+    android:paddingEnd="20sp">
+
+
+
+
+    
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:stepSize="0.5"
+        />
+    //stepSize untuk memberi nilai pada setiap nilainya
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:entries="@array/makanan"
+        android:id="@+id/spin_makanan"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_spin"
+        android:text="ambil spin"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+/>
+
+</LinearLayout>

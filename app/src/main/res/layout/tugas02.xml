@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="80dp"
+        android:id="@+id/gbr01"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/nevergiveup"/>
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:id="@+id/gbr02"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/nevergiveup"
+        android:layout_toRightOf="@+id/gbr01"
+        android:layout_marginLeft="50dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="> KTP harus"
+        android:layout_below="@+id/gbr01"
+        android:layout_alignLeft="@+id/gbr01"
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+        android:id="@+id/txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="> KTP harus "
+        android:layout_below="@+id/gbr01"
+        android:layout_alignLeft="@+id/gbr01"
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+        android:id="@+id/txt_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="terfoto sepenuhnya"
+        android:textStyle="bold"
+        android:layout_below="@+id/gbr01"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/txt_1"
+        />
+    <TextView
+        android:id="@+id/txt_3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="> KTP harus tampak jelas"
+    android:layout_below="@+id/txt_1"
+    android:layout_alignLeft="@+id/txt_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" (tidak buram)"
+        android:layout_below="@+id/txt_1"
+        android:layout_toRightOf="@+id/txt_3"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txt_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="> KTP "
+        android:layout_below="@+id/txt_3"
+        android:layout_alignLeft="@+id/txt_3"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="masih berlaku"
+        android:textStyle="bold"
+        android:layout_below="@id/txt_3"
+        android:layout_toRightOf="@+id/txt_4"/>
+
+    <ImageView
+        android:layout_marginStart="80dp"
+        android:id="@+id/gbr_3"
+        android:layout_width="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txt_4"
+        android:src="@drawable/nevergiveup"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/txt_4"
+        android:layout_toRightOf="@id/gbr_3"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/nevergiveup"/>
+    <TextView
+        android:id="@+id/txt_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="> Wajah dan KTP harus"
+        android:layout_below="@+id/gbr_3"
+        android:layout_alignLeft="@+id/gbr_3"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" terfoto sepenuhnya"
+        android:textStyle="bold"
+        android:layout_below="@id/gbr_3"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/txt_5"/>
+    <TextView
+        android:id="@+id/txt_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="> Wajah dan KTP harus nampak jelas"
+        android:layout_below="@id/txt_5"
+        android:layout_alignLeft="@id/txt_5"/>
+    <TextView
+        android:id="@+id/txt_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(tidak buram)"
+        android:textStyle="bold"
+        android:layout_below="@id/txt_6"
+        android:layout_alignLeft="@+id/txt_6"
+        android:layout_marginStart="10dp"/>
+    <TextView
+        android:id="@+id/ss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="> Letakan KTP"
+        android:layout_below="@id/txt_7"
+        android:layout_alignLeft="@id/txt_6"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Dibawa atau Disamping"
+        android:textStyle="bold"
+        android:layout_below="@id/txt_7"
+        android:layout_toRightOf="@id/txt_7"/>
+    <TextView
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wajahmu saat mengambil foto"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_below="@id/ss"
+        android:layout_alignLeft="@id/ss"/>
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ad"
+            android:layout_alignLeft="@id/ss"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ad"
+        android:layout_marginStart="70dp"
+        android:layout_toRightOf="@+id/btn"/>
+</RelativeLayout>
